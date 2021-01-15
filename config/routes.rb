@@ -17,3 +17,4 @@ Rails.application.routes.draw do
     User.create(user_params)
   end
 end
+# feature/resourcesブランチ
