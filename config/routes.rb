@@ -12,9 +12,4 @@ Rails.application.routes.draw do
   #削除
   delete '/users/:id', to: 'users#destroy'
 
-  # CRUDの処理は基本的にコントローラーに記述
-  # def create
-  #   # Strong Parameter の記述
-  #   User.create(user_params)
-  # end
 end
